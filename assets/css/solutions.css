@@ -1,4 +1,4 @@
-.section-trusted-partner-stats {
+/* .section-trusted-partner-stats {
     margin: 80px 0
 }
 
@@ -104,6 +104,166 @@
         margin: 40px 0
     }
 }
+
+.section-trusted-partner-stats .stat-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section-trusted-partner-stats .stat-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .section-trusted-partner-stats .stat-item h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px 0;
+    color: blue;
+  }
+  
+  .section-trusted-partner-stats .stat-item p {
+    font-size: 16px;
+    color: #000;
+    margin: 4px 0 0;
+    line-height: 1.5;
+  }
+ 
+  .brand-aws {
+    color: #FF9900;
+    font-weight: 600;
+  }
+  .brand-oracle {
+    color: #F80000;
+    font-weight: 600;
+  }
+  .brand-redhat {
+    color: #EE0000;
+    font-weight: 600;
+  }
+  .brand-ibm {
+    color: #006699;
+    font-weight: 600;
+  }
+  .brand-nist {
+    color: #4A90E2;
+    font-weight: 600;
+  }
+  .brand-nmaa {
+    color: #9055A2;
+    font-weight: 600;
+  }
+  .brand-stonebranch {
+    color: #228B22;
+    font-weight: 600;
+  }
+  .highlight {
+    color: var(--color-secondary);
+    font-weight: 600;
+  }
+  
+  /* Optional hover effect */
+  .stat-item h5 span:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+    cursor: pointer;
+  }   */
+  
+.section-trusted-partner-stats {
+    margin: 80px 0;
+  }
+  
+  .section-trusted-partner-stats .content-wrapper {
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+  
+  @media (max-width: 1280px) {
+    .section-trusted-partner-stats .content-wrapper {
+      gap: 32px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .section-trusted-partner-stats .content-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .section-trusted-partner-stats .stats-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+  
+  .section-trusted-partner-stats .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    background-color: var(--color-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    gap: 8px;
+    max-width: 100%;
+  }
+  
+  .section-trusted-partner-stats .stat-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f06543; /* màu cam đậm */
+    margin: 0;
+  }
+  
+  @media (max-width: 1440px) {
+    .section-trusted-partner-stats .stat-item h3 {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .section-trusted-partner-stats .stat-item h3 {
+      font-size: 20px;
+    }
+  }
+  
+  .section-trusted-partner-stats .stat-item h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 4px 0;
+    color: blue; /* màu xám đậm cho chứng nhận */
+  }
+  
+  @media (max-width: 576px) {
+    .section-trusted-partner-stats .stat-item h5 {
+      font-size: 14px;
+    }
+  }
+  
+  .section-trusted-partner-stats .stat-item p {
+    font-size: 16px;
+    color: #000;
+    margin: 4px 0 0;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 1024px) {
+    .section-trusted-partner-stats .stat-item {
+      max-width: 575px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .section-trusted-partner-stats {
+      margin: 40px 0;
+    }
+  }
+  
 
 .section-business-sectors {
     margin: 80px 0
