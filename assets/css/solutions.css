@@ -273,7 +273,8 @@
 .section-business-sectors .right-section>.feature-item:nth-last-child(1):nth-child(odd) {
     /* grid-column: 1 / -1; */
     /* transform: translateX(60%); */
-    justify-self: center;
+    /* justify-self: center; */
+    grid-column: 1 / 2;
 }
 
 @media (max-width: 1024px) {
